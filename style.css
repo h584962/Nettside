@@ -1,20 +1,20 @@
 .personcontainer {
-    width: 40%;
-    margin: 0 auto;
-    padding-top: 5%;
+    width: 40%; /* Setter hvor bredt div elementet skal være. */
+    margin: 0 auto; /* Sentrerer div elementet. */
+    padding-top: 5%; /* Utvider elementet på toppen. */
 }
 .container {
     width:80%;
-    height: 100%;
-    margin: 0 auto;
-    background-color: white;
+    height: 100%; /* For å passe på at hele siden blir grå/hvit */
+    margin: 0 auto; /* Sentrerer div elementet. */
+    background-color: white; /* Setter bakgrunnen til div elementet hvitt. */
 }
 body {
-    margin: 0;
+    margin: 0; /* Fjerner marginer på topp/siden */
     background-color: gray;
     font-family: sans-serif;
 }
 
 .spanner {
-    color: red;
+    color: red; /* Farge på et element som thomas bruker. */
 }
