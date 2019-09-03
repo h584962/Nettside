@@ -1,0 +1,20 @@
+.personcontainer {
+    width: 40%;
+    margin: 0 auto;
+    padding-top: 5%;
+}
+.container {
+    width:80%;
+    height: 100%;
+    margin: 0 auto;
+    background-color: white;
+}
+body {
+    margin: 0;
+    background-color: gray;
+    font-family: sans-serif;
+}
+
+.spanner {
+    color: red;
+}
