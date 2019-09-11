@@ -16,7 +16,7 @@ git push
 
 Forklaring:
 
-```git add .``` legger til alle filene du har jobbet med og gjør de klar
+```git add .``` legger til alle filene du har jobbet med og gjør de klar.
 ```git commit -m "Melding her"``` pakker filene sammen i en versjon (siden git er for versjonskontroll)
 ```git push``` sender pakkene til github.
 
