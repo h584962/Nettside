@@ -24,6 +24,6 @@ Forklaring:
 Dersom det kommer et forferdelig vindu som dette her:
 ![bildet virker ikke](merge.PNG)
 
-Må du bare trykke ESC (Escape) og skrive :wq på bunnen.
+Må du bare trykke ESC (Escape) og skrive ```:wq``` på bunnen.
 Forklaring: Dette åpner noe som heter VIM som rett og slett bare er et forferdelig program.
 For å ordne dette må man bare akseptere sammenslåingen. I praksis (for vår del) betyr det bare å lagre tekstfilen som den åpner.
