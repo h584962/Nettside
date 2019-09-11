@@ -11,17 +11,30 @@
 }
 
 .container {
-    width:60%;
-    height: auto;
+    width: 60%;
     margin: 0 auto; /* Sentrerer div elementet. */
     min-height: 98%; /* For å passe på at hele siden blir grå/hvit */
     padding-bottom: 1%;
     background-color: white; /* Setter bakgrunnen til div elementet hvitt. */
 }
 
-body {
+body, html {
+    margin: 0;
     background-color: #f3f3f3;
+    min-height: 98%; /* For å passe på at hele siden blir grå/hvit */
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+p {
+    font-size: 1.2em;
+}
+
+h1 {
+   font-size: 3em;
+}
+
+h2 {
+    font-size: 2em;
 }
 
 .spanner {
