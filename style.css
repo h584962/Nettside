@@ -25,18 +25,6 @@ body, html {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-p {
-    font-size: 1.2em;
-}
-
-h1 {
-   font-size: 3em;
-}
-
-h2 {
-    font-size: 2em;
-}
-
 .spanner {
     color: red; /* farge på et element som thomas bruker. */
 }
