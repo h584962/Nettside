@@ -8,6 +8,8 @@ Denne siden skal peke videre til alle sammen. Resten finner man i **personer/**_
 
 ## Bruksanvisning:
 
+Husk å gjøre ```git pull``` for å være oppdatert med det de andre driver med og slik at det ikke oppstår konflikter!
+
 ```
 git add .
 git commit -m "Melding her"
