@@ -25,3 +25,7 @@ body {
 .spanner {
     color: red; /* farge på et element som thomas bruker. */
 }
+
+.logo {
+    padding-right: 10px;
+}
