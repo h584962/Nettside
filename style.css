@@ -1,18 +1,25 @@
 .personcontainer {
-    width: 40%; /* Setter hvor bredt div elementet skal være. */
+    width: 60%; /* Setter hvor bredt div elementet skal være. */
     margin: 0 auto; /* Sentrerer div elementet. */
     padding-top: 5%; /* Utvider elementet på toppen. */
 }
+
+.image {
+    max-width: 30%;
+}
+
 .container {
     width:80%;
-    height: 100%; /* For å passe på at hele siden blir grå/hvit */
+    height: auto;
     margin: 0 auto; /* Sentrerer div elementet. */
+    padding-bottom: 1%;
+    min-height: 98%; /* For å passe på at hele siden blir grå/hvit */
     background-color: white; /* Setter bakgrunnen til div elementet hvitt. */
 }
 body {
     margin: 0; /* Fjerner marginer på topp/siden */
     background-color: gray;
-    font-family: sans-serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .spanner {
