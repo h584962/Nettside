@@ -1,3 +1,11 @@
+body, html {
+    margin: 0;
+    background-color: #f3f3f3;
+    min-height: 100vh; /* For å passe på at hele siden blir grå/hvit */
+    font-family:  Cambria, Cochin, Georgia, serif;
+    color: #2d2d2d;
+}
+
 .personcontainer {
     width: 80%; /* Setter hvor bredt div elementet skal være. */
     margin: 0 auto; /* Sentrerer div elementet. */
@@ -16,13 +24,6 @@
     min-height: 98%; /* For å passe på at hele siden blir grå/hvit */
     padding-bottom: 1%;
     background-color: white; /* Setter bakgrunnen til div elementet hvitt. */
-}
-
-body, html {
-    margin: 0;
-    background-color: #f3f3f3;
-    min-height: 98%; /* For å passe på at hele siden blir grå/hvit */
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .spanner {
