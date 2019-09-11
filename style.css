@@ -12,10 +12,11 @@
     width:80%;
     height: auto;
     margin: 0 auto; /* Sentrerer div elementet. */
-    padding-bottom: 1%;
     min-height: 98%; /* For å passe på at hele siden blir grå/hvit */
+    padding-bottom: 1%;
     background-color: white; /* Setter bakgrunnen til div elementet hvitt. */
 }
+
 body {
     margin: 0; /* Fjerner marginer på topp/siden */
     background-color: gray;
