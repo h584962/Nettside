@@ -1,15 +1,17 @@
 .personcontainer {
-    width: 60%; /* Setter hvor bredt div elementet skal være. */
+    width: 80%; /* Setter hvor bredt div elementet skal være. */
     margin: 0 auto; /* Sentrerer div elementet. */
     padding-top: 5%; /* Utvider elementet på toppen. */
 }
 
 .image {
+    position: relative;
     max-width: 30%;
+    float: right;
 }
 
 .container {
-    width:80%;
+    width:60%;
     height: auto;
     margin: 0 auto; /* Sentrerer div elementet. */
     min-height: 98%; /* For å passe på at hele siden blir grå/hvit */
@@ -18,8 +20,7 @@
 }
 
 body {
-    margin: 0; /* Fjerner marginer på topp/siden */
-    background-color: gray;
+    background-color: #f3f3f3;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
