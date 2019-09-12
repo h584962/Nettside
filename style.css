@@ -17,6 +17,12 @@ body, html {
     /*float: right;*/
 }
 
+.thomasimage {
+    position: relative;
+    max-width: 30%;
+    float: right;
+}
+
 .image-header {
     max-width: 60%;
    display: block;

@@ -1,0 +1,97 @@
+Oppgave 1)
+a)
+går ut ifra at man ikke trenger hele klassestrukturen, selv om jeg gjerne kunne skrevet det også
+
+        void printInteger(int a) {
+            if (a < 0)
+                System.out.println("a er mindre enn null.");
+            else if (a == 0)
+                System.out.println("a er null.");
+            if (a > 0)
+                System.out.println("a er større enn null.");
+        }
+
+b)
+        void v(int a) {
+            if (a  < 5 || a > 7)
+                System.out.println(a + " er utenfor intervallet.");
+            else
+                System.out.println(a + " er innenfor intervallet.");
+        }
+
+c)
+        String switchStatement(int a) {
+            String response = "";
+            switch(a) {
+                case 0:
+                    response = "null";
+                    break;
+                case 1:
+                    response = "en";
+                    break;
+                case 2:
+                    response = "to";
+                    break;
+                case 3:
+                    response = "tre";
+                    break;
+                case 4:
+                    response = "fire";
+                    break;
+                default:
+                    response = "ulovlig verdi";
+            }
+            return response;
+        }
+
+Oppgave 2)
+    
+        for(int i = 2; i <= 6; i++) {
+            int res = 10/i;
+            System.out.println("10 / " + i + " = " res);
+        }
+
+Oppgave 3)
+
+        ArrayList<int> ints = new ArrayList<int>();
+        String result = "";
+        int antall = 0;
+        while(result != "0") {
+            String inp = showInputDialog("Skriv inn et nytt tall. (0 for å avslutte.)");
+            int a = Integer.parseInt(inp); //her fins ValueException som ikke er håndtert.
+            ints.add(a);
+        }
+        System.out.println("Antall tall: " + ints.size());
+        int sum = 0;
+        for(int i = 0; i < ints.size(); i++)
+            sum+=ints[i];
+        System.out.println("Sum: " + sum);
+
+Oppgave 4)
+
+    a)
+
+        static int min(int a, int b, int c) {
+            double min = a;
+            if (b < min)
+                min = b;
+            if (c < min)
+                min = c;
+            return min;
+            //her har jeg ikke tatt til regne for bruk av Epsilon.
+        }
+
+    b)
+        
+        System.out.println(String.format("Den minste verdien av variablene a,b,c er tallet %d", min(a,b,c)));
+
+Oppgave 5)
+
+    a)
+        static double circleArea(double r) {
+            return Math.PI*r*r;
+        }
+    
+    b)
+        System.out.println("Areal av sirkel med radius 1.5: " + circleArea(1.5));
+        System.out.println("Areal av sirkel med radius 1.5 (rundet av): " + Math.round(circleArea(1.5)*100d)/100d);
