@@ -18,8 +18,8 @@ body, html {
 }
 
 .image-header {
-    max-width: 30%;
-  float: center;
+    max-width: 60%;
+ position: center;
 }
 
 .container {
