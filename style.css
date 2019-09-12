@@ -19,7 +19,7 @@ body, html {
 
 .image-header {
     max-width: 60%
-  
+  float: center;
 }
 
 .container {
