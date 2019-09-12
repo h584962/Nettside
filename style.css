@@ -56,6 +56,33 @@ body, html {
      
 }
 .table-body {
-    background-color: ;
+    /*background-color: ;*/
 }
 
+@media only screen and (max-width: 1000px) {
+    .container {
+        width: auto;
+    }
+    .personcontainer {
+        width: 95%;
+    }
+    .thomasimage {
+        float: none;
+        margin: 0 auto;
+        min-width: 99%;
+    }
+
+    h1 {
+        text-align: center;
+        font-size: 5em;
+    }
+
+    h2 {
+        text-align: center;
+        font-size: 2em;
+    }
+    
+    p {
+        font-size: 1.5em;
+    }
+}
