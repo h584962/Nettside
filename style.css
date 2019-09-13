@@ -25,6 +25,7 @@ body, html {
    display: block;
    margin-left: auto;
    margin-right: auto;
+   padding: 5px;
 }
 
 .container {
@@ -56,6 +57,7 @@ body, html {
     /*background-color: ;*/
 }
 
+/*for telefoner*/
 @media only screen and (max-width: 1000px) {
     .container {
         width: auto;
@@ -63,7 +65,10 @@ body, html {
     .personcontainer {
         width: 95%;
     }
-    .thomasimage {
+    .image-header {
+        min-width: 100%;
+    }    
+    .image {
         float: none;
         margin: 0 auto;
         min-width: 99%;
