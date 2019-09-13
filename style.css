@@ -7,14 +7,15 @@ body, html {
 
 .personcontainer {
     width: 80%; /* Setter hvor bredt div elementet skal være. */
-    margin: 0 auto; /* Sentrerer div elementet. */
+    margin: 0 auto; /*Sentrerer div elementet. */
     padding-top: 5%; /* Utvider elementet på toppen. */
 }
 
 .image {
     position: relative;
     max-width: 30%;
-    /*float: right;*/
+    float: right;
+    margin: 0 auto;
 }
 
 .thomasimage {
@@ -22,6 +23,7 @@ body, html {
     max-width: 30%;
     float: right;
 }
+
 
 .image-header {
     max-width: 60%;
