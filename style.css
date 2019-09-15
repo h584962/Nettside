@@ -15,21 +15,17 @@ body, html {
     position: relative;
     max-width: 30%;
     float: right;
+    padding-left: 5px;
     margin: 0 auto;
-}
-
-.thomasimage {
-    position: relative;
-    max-width: 30%;
-    float: right;
 }
 
 
 .image-header {
     max-width: 60%;
-   display: block;
-   margin-left: auto;
-   margin-right: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
 }
 
 .container {
@@ -61,14 +57,21 @@ body, html {
     /*background-color: ;*/
 }
 
+/*for telefoner*/
 @media only screen and (max-width: 1000px) {
     .container {
         width: auto;
     }
+
     .personcontainer {
         width: 95%;
     }
-    .thomasimage {
+
+    .image-header {
+        min-width: 100%;
+    } 
+
+    .image {
         float: none;
         margin: 0 auto;
         min-width: 99%;
