@@ -5,14 +5,6 @@ body, html {
     color: #2d2d2d;
 }
 
-.header {
-  padding: 60px;
-  text-align: center;
-  background: #1abc9c;
-  color: white;
-  font-size: 30px;
-}
-
 .personcontainer {
     width: 80%; /* Setter hvor bredt div elementet skal være. */
     margin: 0 auto; /*Sentrerer div elementet. */
