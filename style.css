@@ -19,8 +19,9 @@ body, html {
   position: relative;
   left: -50%; /* or right 50% */
   text-align: left;
+}
     
-    #container {
+.container {
   width: 500px;
   margin: 20px auto 0 auto;
   background-color: #E288A0;
@@ -44,7 +45,6 @@ body, html {
     padding-left: 5px;
     margin: 0 auto;
 }
-
 
 .image-header {
     max-width: 60%;
