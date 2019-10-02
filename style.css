@@ -35,7 +35,7 @@ body, html {
   background-color: #E288A0;
   background-color: rgba(255,255,255,0.5);
   
-  border: 7px solid #B71F45;
+  /*border: 3px solid #B71F45;*/
   padding: 20px;
   border-radius: 10px;
 }
@@ -127,15 +127,18 @@ body, html {
 }
  
 /* navigationbar, må være en bedre måte å linke til navigationbar på flere sider?  */
-*{
-margin: 0px;
+/** {
+    margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    
 }
-
-nav{
+*/
+nav {
+    z-index: 1;
     display: flex;
+    position: fixed;
+    width: 100%;
+    top: 0;
     justify-content: space-around;
     align-items: center;
     min-height: 8vh;
@@ -160,7 +163,8 @@ nav{
 .nav-links {
     display: flex;
     justify-content: space-around;
-    width: 35%;
+    width: 15%;
+    margin-right: 1%;
     
 }
 .nav-links li {
@@ -215,8 +219,7 @@ nav{
   text-align: left;
 }
 
-.topnav a:hover, .dropdown:hover . dropbtn {
-   
+.topnav a:hover, .dropdown:hover, .dropbtn {
     color: white;
 }
 .dropdown-content a:hover {
