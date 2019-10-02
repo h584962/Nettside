@@ -127,13 +127,12 @@ body, html {
 }
  
 /* navigationbar, må være en bedre måte å linke til navigationbar på flere sider?  */
-*{
-margin: 0px;
+/** {
+    margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    
 }
-
+*/
 nav{
     display: flex;
     justify-content: space-around;
