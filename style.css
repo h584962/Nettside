@@ -43,7 +43,7 @@ body, html {
 .personcontainer {
     width: 80%; /* Setter hvor bredt div elementet skal være. */
     margin: 0 auto; /*Sentrerer div elementet. */
-    padding-top: 5%; /* Utvider elementet på toppen. */
+    padding-top: 10%; /* Utvider elementet på toppen. */
 }
 
 .image {
@@ -52,6 +52,34 @@ body, html {
     float: right;
     padding-left: 5px;
     margin: 0 auto;
+}
+
+.styledbutton:link, .styledbutton:visited {
+    font-family: Poppins, sans-serif;
+    border-radius: 2px;
+    text-decoration: none;
+    color: white;
+    background-color: #E288A0;
+    border: 1px rgb(226, 113, 143);
+    padding: 5px;
+}
+
+.styledbutton:hover {
+    background-color: rgb(226, 113, 143);
+}
+
+.pdf {
+    margin-top: 5%;
+}
+
+.right {
+    float: right;
+}
+
+.pdfview {
+    width: 100%;
+    margin-top: 2%;
+    height: 80vh;
 }
 
 .image-header {
