@@ -80,6 +80,7 @@ body, html {
     width: 100%;
     margin-top: 2%;
     height: 80vh;
+    border: none;
 }
 
 .image-header {

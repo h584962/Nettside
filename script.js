@@ -1,7 +1,6 @@
 window.onload = function() {
     document.getElementById("vis1").addEventListener("click", function(event) {
         let dom = document.getElementById("pdf1");
-        console.log(dom);
         if(dom.style.display == "inline") {
             dom.style.display = "none";
             document.getElementById("vis1").innerHTML = "Vis prosjektplan";
@@ -12,7 +11,6 @@ window.onload = function() {
     });
     document.getElementById("vis2").addEventListener("click", function(event) {
         let dom = document.getElementById("pdf2");
-        console.log(dom);
         if(dom.style.display == "inline") {
             dom.style.display = "none";
             document.getElementById("vis2").innerHTML = "Vis akademisk versjon";
