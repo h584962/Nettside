@@ -19,4 +19,14 @@ window.onload = function() {
             document.getElementById("vis2").innerHTML = "Skjul akademisk versjon";
         }
     });
+    document.getElementById("vis3").addEventListener("click", function(event) {
+        let dom = document.getElementById("pdf3");
+        if(dom.style.display == "inline") {
+            dom.style.display = "none";
+            document.getElementById("vis3").innerHTML = "Vis Matlab prosjekt";
+        } else {
+            dom.style.display = "inline";
+            document.getElementById("vis3").innerHTML = "Skjul Matlab prosjekt";
+        }
+    });
 };
